@@ -2,6 +2,9 @@
   <div class="lottery-component">
     <swiper class="swiper" ref="mySwiper" :options="swiperOptions">
       <swiper-slide class="swiper-slide">
+        <HappyBirthDay />
+      </swiper-slide>
+      <swiper-slide class="swiper-slide">
         <home />
       </swiper-slide>
       <swiper-slide class="swiper-slide" v-for="gift in gifts" :key="gift.key">
@@ -20,11 +23,13 @@
 
 <script>
 import Home from './Lottery.Home.vue';
+import HappyBirthDay from './Lottery.HappyBirthDay.vue'
 import { gifts as GIFTS } from '@/gift.setting.js';
 export default {
   name: 'Lottery',
   components: {
     Home,
+    HappyBirthDay,
     GiftDisplayer: () => import('./Lottery.GiftDisplayer.vue'),
     Turntable: () => import('./Lottery.Turntable.vue'),
   },
@@ -65,4 +70,5 @@ export default {
   height: 100%;
   width: 100%;
 }
+
 </style>

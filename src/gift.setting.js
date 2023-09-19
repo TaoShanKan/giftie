@@ -11,15 +11,15 @@ export const IS_SHOW_RESTART = false;
 // 首页配置
 export const homeConfig = {
   // 标题
-  title: '520送礼抽奖',
+  title: '生日抽奖',
   // 留言，数组的每一项代表一行
   messages: [
-    { key: 'a', wording: '这是第一行文案', },
-    { key: 's', wording: '这是第二行文案', },
-    { key: 'd', wording: '然后，这里是第三行文案', },
+    { key: 'a', wording: '送给我的宝贝', },
+    { key: 's', wording: '你是我生命中最珍贵的宝藏', },
+    { key: 'd', wording: '每一天都因为有你而变得更加美好', },
   ],
   // 最终解释权归属人
-  owner: 'XXX',
+  owner: '陶善侃',
   // 抽奖转盘的动画时间，单位毫秒
   timeout: 5000,
   // 指定赠送的礼物的索引（第几个礼物中奖），取值范围 0-8
