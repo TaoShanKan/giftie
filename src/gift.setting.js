@@ -31,9 +31,12 @@ export const homeConfig = {
 // 图片放在 public/images 中，建议是正方形，否则影响视觉体验
 // name 是礼物的全称；alias 是礼物的简称（用来显示在抽奖方格里）
 export const gifts = [
-  { key: 'q', name: '雅诗兰黛小棕瓶套装', alias: '雅诗兰黛', image: '/images/1.png',  description: '「经典款，敏感肌也能用」' },
-  { key: 'w', name: '腾讯视频VIP', alias: 'VIP', image: '/images/2.png',  description: '“为你承包一辈子的 VIP”' },
+  { key: 'q', name: '雅诗兰黛小棕瓶套装', alias: '雅诗兰黛', image: '/images/1.png',  description: '与你一起绽放美丽' },
+  { key: 'p', name: 'TOM FORD「爱意鎏金」双唇礼盒 ', alias: 'TF口红', image: '/images/7.png',  description: '唇印绽放，爱意永恒' },
+  { key: 'r', name: '1314红包', alias: '1314', image: '/images/5.png',  description: '一生一世，爱你无止境' },
+  { key: 'w', name: '腾讯视频VIP', alias: 'VIP', image: '/images/2.png',  description: '与你一起共享美好时光' },
   { key: 't', name: '海蓝之谜修护精萃水', alias: '海蓝之谜', image: '/images/3.png',  description: 'NO.1 才配你' },
-  { key: 'u', name: '芦丹氏香水', alias: '柏林少女', image: '/images/4.png',  description: '就爱这个味道' },
+  { key: 'u', name: '芦丹氏香水', alias: '柏林少女', image: '/images/4.png',  description: '香氛如你，美丽动人' },
+  { key: 'o', name: 'Dior真我香水', alias: 'Diro', image: '/images/6.png',  description: '芬芳之约，真我与你' },
   { key: 'r', name: '5200红包', alias: '5200', image: '/images/5.png',  description: '从今往后，我都会在你旁边' },
 ];
